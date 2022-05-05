@@ -11,12 +11,21 @@ Author URL: http://w3layouts.com
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>NAVANEETH_KP_</title>
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
     <!-- google font -->
     <link href="//fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
+
+    <script type="text/javascript">
+        (function() {
+  emailjs.init("user_service_knbyc8m");
+  })();
+       </script>
+  
+  
 </head>
 
 <body>
@@ -134,19 +143,17 @@ Author URL: http://w3layouts.com
                     </ul>
                 </div>
                 <div class="col-md-6 contact-right mt-md-0 mt-5 ps-lg-0">
-                    <form action="https://navaneethmukundan.github.io/Navaneeth-Static-Website/" method="post" class="signin-form">
+                    <form id='form' role="form" class="signin-form">
                         <div class="input-grids">
-                            <input type="text" name="w3lName" id="w3lName" placeholder="Your Name*"
+                            <input type="text" name="name" id="name" placeholder="Your Name*"
                                 class="contact-input" required="" />
-                            <input type="email" name="w3lSender" id="w3lSender" placeholder="Your Email*"
+                            <input type="email" name="email" id="email" placeholder="Your Email*"
                                 class="contact-input" required="" />
-                            <input type="text" name="w3lSubect" id="w3lSubect" placeholder="Subject*"
-                                class="contact-input" required="" />
-                            <input type="text" name="w3lWebsite" id="w3lWebsite" placeholder="Website URL*"
+                            <input type="text" name="subect" id="subject" placeholder="Subject*"
                                 class="contact-input" required="" />
                         </div>
                         <div class="form-input">
-                            <textarea name="w3lMessage" id="w3lMessage" placeholder="Type your message here*"
+                            <textarea name="message" id="message" placeholder="Type your message here*"
                                 required=""></textarea>
                         </div>
                         <button class="btn btn-style">Send Message</button>
@@ -277,6 +284,7 @@ Author URL: http://w3layouts.com
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- //bootstrap -->
     <!-- //Js scripts -->
+    <script src="./assets/js/index.js"></script>
 </body>
 
 </html>

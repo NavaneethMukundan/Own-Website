@@ -19154,13 +19154,11 @@ h3.title-style {
   display: grid;
   align-items: center;
   min-height: 100vh;
+  background: url(../images/gif.gif) no-repeat center;
   -ms-background-size: cover;
   background-size: cover;
   position: relative;
   z-index: 1;
-}
-.w3l-banner{
-  background: url(https://cdn.dribbble.com/users/1187278/screenshots/16762086/media/10ba6161c70f3edd67f34e229b62b852.gif) no-repeat center;
 }
 
 .w3l-banner:before {
