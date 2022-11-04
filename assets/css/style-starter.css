@@ -19498,7 +19498,7 @@ ul.single-info li p {
 .w3l-progress .progress-bar.gradient-1:before {
   content: "";
   position: absolute;
-  right: 20%;
+  right:48%;
   top: 90%;
   border-radius: 50%;
   transform: translate(50%, -50%);
@@ -19514,7 +19514,7 @@ ul.single-info li p {
 .w3l-progress .progress-bar.gradient-2:before {
   content: "";
   position: absolute;
-  right: 5%;
+  right: 48%;
   top: 90%;
   border-radius: 50%;
   transform: translate(50%, -50%);
@@ -19530,7 +19530,7 @@ ul.single-info li p {
 .w3l-progress .progress-bar.gradient-3:before {
   content: "";
   position: absolute;
-  right: 40%;
+  right: 70%;
   top: 90%;
   border-radius: 50%;
   transform: translate(50%, -50%);
