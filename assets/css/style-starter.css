@@ -48,6 +48,7 @@ Author URL: http://w3layouts.com
     scroll-behavior: smooth;
   }
 }
+
 body {
   margin: 0;
   font-family: var(--bs-font-sans-serif);
@@ -19436,8 +19437,8 @@ ul.single-info li {
 li.name-style {
   color: var(--heading-color);
   font-weight: 600;
-  font-size: 17px;
-  width: 75px;
+  font-size: 16px;
+  width: 95px;
 }
 
 ul.single-info li p {
@@ -19498,7 +19499,7 @@ ul.single-info li p {
 .w3l-progress .progress-bar.gradient-1:before {
   content: "";
   position: absolute;
-  right:48%;
+  right: 28%;
   top: 90%;
   border-radius: 50%;
   transform: translate(50%, -50%);
@@ -19514,7 +19515,7 @@ ul.single-info li p {
 .w3l-progress .progress-bar.gradient-2:before {
   content: "";
   position: absolute;
-  right: 48%;
+  right: 18%;
   top: 90%;
   border-radius: 50%;
   transform: translate(50%, -50%);
